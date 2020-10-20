@@ -10,7 +10,7 @@ def send_weather(message):
 	try:
 		answer = "Я на 100% уверен, что только что мне отправлен такой текст: " +'\n\n' + message.text + '\n'
 	except:
-		answer = 'Are you kidding?' + '\n'
+		answer = 'Are you kidding?!!!' + '\n'
 		answer += 'I\'ve catched an exception!'+ '\n\n'
 		answer += 'Try again!'+ '\n'
 	bot.send_message(message.chat.id, answer)
