@@ -13,4 +13,3 @@ def send_weather(message):
 		answer += 'Try again!'+ '\n'
 	bot.send_message(message.chat.id, answer)
 bot.polling( none_stop = True )
-exit()
