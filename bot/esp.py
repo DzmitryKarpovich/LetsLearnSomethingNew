@@ -6,7 +6,8 @@ def send_welcome(message):
 @bot.message_handler(content_types=['text'])
 def send_weather(message):
 	try:
-		answer = "Я на 101% уверен, что Вы отправили: " +'\n\n' + message.text + '\n'
+		#answer = "Я на 101% уверен, что Вы отправили: " +'\n\n' + message.text + '\n'
+		answer = "I'm 101% sure you've send me : " +'\n\n' + message.text + '\n'
 	except:
 		answer = 'Are you kidding?!!!' + '\n'
 		answer += 'I\'ve catched an exception!'+ '\n\n'
