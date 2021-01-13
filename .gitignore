@@ -1,4 +1,6 @@
 help/
 *.log
 token*
-*workspace
+espbot.code-workspace
+{}*
+
