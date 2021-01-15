@@ -8,6 +8,7 @@
         }
     ],
     "settings": {
-        "vscodeGoogleTranslate.preferredLanguage": "Russian"
+        "vscodeGoogleTranslate.preferredLanguage": "Russian",
+        "java.configuration.updateBuildConfiguration": "interactive"
     }
 }
